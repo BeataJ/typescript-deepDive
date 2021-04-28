@@ -11,3 +11,10 @@ let now: Date = new Date();
 let colors: string[] = ['red', 'blue', 'black'];
 let myNumbers: number[] = [1,2,3];
 let truths: boolean[] = [true, false, true];
+
+// Classes
+class Car {
+
+}
+let car: Car = new Car();
+
