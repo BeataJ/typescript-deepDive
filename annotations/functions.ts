@@ -21,3 +21,18 @@ const logger = (message: string): void => {
 const throwError = (message: string): never => {
     throw new Error(message)
 }
+
+const throwError1 = (message: string): string => {
+    if(!message) {
+        throw new Error(message)
+    }
+    
+    return message;
+}
+
+const throwError2 = (message: string): void => {
+    if (!message) {
+        throw new Error(message)
+    }
+
+}
