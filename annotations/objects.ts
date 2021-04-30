@@ -9,3 +9,6 @@ const profile = {
         this.age = age;
     }
 }
+
+const { age }: {age: number } = profile;
+
