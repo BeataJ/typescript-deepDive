@@ -1,7 +1,5 @@
 interface Vehicle {
-    name: string;
-    year: Date;
-    broken: boolean;
+    
     summary():string;
 }
 
