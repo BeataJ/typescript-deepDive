@@ -12,6 +12,15 @@ const oldCivic = {
     }
 }
 
+const drink = {
+    color: 'brown',
+    carbonated: true,
+    suger: 40,
+    summary():string {
+        return `My drink has ${this.suger} grams of suger`
+    }
+}
+
 
 const printSummary = (item: Reportable): void => {
     console.log(item.summary())
