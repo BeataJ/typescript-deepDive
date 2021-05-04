@@ -1,8 +1,8 @@
 class Vehicle {
-    color: string;
+    // color: string;
 
-    constructor(color: string) {
-        this.color = color;
+    constructor(public color: string) {
+        // this.color = color;
     }
     
     protected honk():void {
