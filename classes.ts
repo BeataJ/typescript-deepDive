@@ -1,6 +1,6 @@
 class Vehicle {
     
-    public honk():void {
+    protected honk():void {
         console.log('beep')
     }
 }
@@ -11,7 +11,8 @@ class Car extends Vehicle {
     }
 
     startDrivingProcess():void {
-        this.drive()
+        this.drive();
+        this.honk()
     }
 }
 
@@ -20,4 +21,4 @@ class Car extends Vehicle {
 // vehicle.honk();
 const car = new Car();
 car.startDrivingProcess();
-car.honk();
+// car.honk();
